@@ -1,0 +1,13 @@
+version: '3'
+services:
+  ece4078-jupyterlab:
+    extends:
+      file: docker-compose.yml
+      service: ece4078-jupyterlab
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
