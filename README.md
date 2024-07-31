@@ -86,6 +86,7 @@ Simply clicking on the badge of each week will land you in a page in which you c
 | ------------- | -------------- |
 | Week00 | N/A   |
 | Week01 | N/A   |
+| Week02 | N/A   |
 
 # How to use Deepnote
 
