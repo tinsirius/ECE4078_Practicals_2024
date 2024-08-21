@@ -89,7 +89,7 @@ Simply clicking on the badge of each week will land you in a page in which you c
 | Week02 | [<img src="https://deepnote.com/buttons/launch-in-deepnote-white-small.svg">](https://deepnote.com/workspace/ece4078-7216-bdf57084-6c08-4dea-a555-1d8b5ffa5d2c/project/Week02-2024-87a2dcf2-1f5b-46d7-8692-2a33a908f7e6)   |
 | Week03 | [<img src="https://mybinder.org/badge_logo.svg">](https://mybinder.org/v2/gh/tinsirius/Week03_2024/main) |
 | Week04 | [<img src="https://deepnote.com/buttons/launch-in-deepnote-white-small.svg">](https://deepnote.com/workspace/ece4078-7216-bdf57084-6c08-4dea-a555-1d8b5ffa5d2c/project/Week04-2024-237c968e-007e-4462-be8e-8cb74c440c90)   |
-
+| Week05 | [<img src="https://mybinder.org/badge_logo.svg">](https://mybinder.org/v2/gh/tinsirius/Week05_2024/main) |
 
 # How to use Deepnote
 
