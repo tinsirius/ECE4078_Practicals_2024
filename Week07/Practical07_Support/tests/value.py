@@ -66,7 +66,7 @@ test = {
                     True
                     """,
                     "success_message": f"Value Function: All your squares are correct in 3 different scenarios",
-                    "failure_message": f"Value Function: All your squares are correct in 3 different scenarioss",
+                    "failure_message": f"Value Function: Your squares are in correct in one or more of the 3 scenarios",
                     "hidden": False,
                     "locked": False,
                 }
