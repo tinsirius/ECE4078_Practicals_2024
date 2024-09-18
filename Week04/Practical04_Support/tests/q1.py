@@ -17,8 +17,13 @@ test = {
                     >>> node = rrtc.Node(12.0, 9.0)
                     >>> _ = rrtc.grow_tree(rrtc.start_node_list, node)
                     >>> with open("Practical04_Support/pickle/q1.pkl", "rb") as f:
-                    ...     expected_start_list = pickle.load(f)
-                    >>> expected_start_list[-1] == rrtc.start_node_list[-1]
+                    ...     expected_data = pickle.load(f)
+                    >>> all([expected_data["x"] == rrtc.start_node_list[-1].x,
+                    ...     expected_data["y"] == rrtc.start_node_list[-1].y,
+                    ...     expected_data["path_x"] == rrtc.start_node_list[-1].path_x,
+                    ...     expected_data["path_y"] == rrtc.start_node_list[-1].path_y,
+                    ...     expected_data["parent_x"] == rrtc.start_node_list[-1].parent.x,
+                    ...     expected_data["parent_y"] == rrtc.start_node_list[-1].parent.y])
                     True
                     """,
                     "hidden": False,
